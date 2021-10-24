@@ -18,6 +18,7 @@ import java.io.File;
     class DemoLombok {
         @SneakyThrows
         public static void main(String[] args) {
+            System.out.println("Hello World");
             System.out.println("Testing Testing Testing Testing");
             System.out.println(new Student("Anu", 1));
             File f = new File("abc.txt");
